@@ -1,0 +1,191 @@
+.Complaints_whole {
+    /* background-color: aqua; */
+    /* padding: 20px; */
+    margin-left: 30px;
+    /* height: 100vh; */
+    overflow-y: hidden;
+    /* border: 2px solid red; */
+}
+
+.Complaints_container {
+    /* background-color: greenyellow; */
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+    gap: 20px;
+}
+
+.Complaints_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* border: 2px solid black; */
+    /* align-items: center; */
+    height: 79vh;
+    width: 50%;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Complaints_count {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 13%;
+    color: white;
+
+    background-color: black;
+
+}
+
+.complaints_arrow {}
+
+.Complaints_DAta {
+    display: flex;
+}
+
+.span_color {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.C_Data {
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    padding: 15px;
+}
+
+.complaints_bottom {
+    border-bottom: 2px solid beige;
+    padding: 10px;
+}
+
+.complaints_icons {
+    padding-right: 15px;
+}
+
+.Complaints_gmail {
+    width: 40%;
+    height: 78vh;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Gmail_data_center {
+    width: auto;
+    height: 79vh;
+
+}
+
+.gmail_color {
+    color: blue;
+}
+
+.Gmail_portion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 18px; */
+    height: 11vh;
+    width: auto;
+    background-color: black;
+    color: white;
+}
+
+.Gmail_portion p {
+    /* padding-bottom: 30px; */
+}
+
+.G_Form {
+    /* margin-right: 6px; */
+
+}
+
+.Gmail_lorem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 53vh;
+    padding: 15px;
+    margin-top: 5px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.Button_container {
+    margin-top: -10px;
+}
+
+.button_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-content: stretch;
+    
+}
+
+.button_div button {
+    border: none;
+    cursor: pointer;
+}
+.button_div button:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+.Red_button {
+    background-color: #DF1919;
+    width: 43%;
+    height: 50px;
+    cursor: pointer;
+    color: white;
+}
+.Red_button button:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.blue_button {
+    background-color: #0C8CE9;
+    width: 43%;
+    height: 50px;
+    cursor: pointer;
+    color: white;
+}
+
+
+@media screen and (max-width: 768px) {
+    .Complaints_container {
+        display: flex;
+        flex-direction: column;
+        margin: 0 40px;
+    }
+
+    .Complaints_content {
+        width: 80%;
+    }
+
+    .Complaints_gmail {
+        width: 80%;
+    }
+}

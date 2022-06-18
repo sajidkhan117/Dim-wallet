@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.finishPopup{
+    width: 500px;
+    height: 326px;
+    border-radius: 5px;
+    background: #fff;
+    z-index: 999;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+.finishPopup_header {
+    width: 100%;
+    background: #0C8CE9;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.finishPopup .close_btn {
+    cursor: pointer;
+}
+
+
+.finishPopup_content {
+    /* height: 200px; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* padding: 20px 10px; */
+    padding: 60px;
+}
+
+.finishPopup_content .success_icon {
+    /* border: 2px solid red; */
+    text-align: center;
+    font-size: 50px;
+    color: #0CAF59;
+    margin-bottom: 10px;
+}
+.finishPopup_content .success_message {
+    text-align: center;
+    /* height: 200px; */
+    /* display: flex;
+    justify-content: center; */
+    /* padding: 20px 10px; */
+}
+
+.finishPopup_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.finishPopup_footer .back_btn {
+    font-size: 16px;
+    padding: 10px 35px;
+    background: #DF1919;
+    color: #fff;
+    border: none;
+    
+}
+.finishPopup_footer .back_btn:hover {
+    background: #c01414;
+    transition: 0.3s ease;
+    cursor: pointer;
+}

@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.emailPopup{
+    width: 500px;
+    height: fit-content;
+    border-radius: 5px;
+    background: #fff;
+    z-index: 999;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    
+    /* border-radius: 16px 16px 0px 0px; */
+}
+
+.emailPopup_header {
+    width: 100%;
+    background: #0C8CE9;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.emailPopup .close_btn {
+    /* border: 1px solid red; */
+    cursor: pointer;
+}
+
+
+.emailPopup_content {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+}
+
+.inputs_container {
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    position: relative;
+}
+
+/* qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq */
+
+.eyehide{
+    /* background-color: #01DD42; */
+    position: absolute;
+    margin-left: -25px;
+    top: 3px;
+}
+
+.lock_btn{
+    position: absolute;
+    top: 18px;
+    right: 3px ;
+    background-color: white;
+    border: none;
+    /* margin-left: -10px; */
+    /* background-color: red; */
+    width: 20px;
+}
+
+/*qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq  */
+
+.emailPopup_content input {
+    padding: 15px 8px;
+    width: 100%;
+    border: none;
+    font-size: 18px;
+}
+.emailPopup_content input:focus {
+    outline: none;
+}
+
+
+.switch_to_email {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: right;
+    margin-top: 10px;
+}
+.switch_to_email p {
+    color: blue;
+    cursor: pointer;
+    border-bottom: 1px solid blue;
+}
+
+
+.emailPopup_footer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 8px 0 25px 0;
+}
+
+.cancel_btn {
+    font-size: 16px;
+    padding: 10px 35px;
+    background: #DF1919;
+    color: #fff;
+    border: none;
+    
+}
+.cancel_btn:hover {
+    background: #c01414;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.finish_btn {
+    font-size: 16px;
+    padding: 10px 35px;
+    background: #0C8CE9;
+    color: #fff;
+    border: none;
+}
+.finish_btn:hover {
+    background: #086eb8;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+

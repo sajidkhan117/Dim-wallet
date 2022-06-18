@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+.container{
+    display:flex;
+    display: block;
+}
+.main{
+    width: 100%;
+    padding: 20px;
+}
+.sidebar{
+    background: #000;
+    color: #fff;
+    height: 100vh;
+    width: 200px;
+    transition: all 0.5s;
+}
+.sidebar2{
+    width: 50px;
+}
+.top_section{
+    display: flex;
+    align-items:center;
+    padding:20px 15px;
+}
+.logo{
+    font-size: 30px;
+}
+.bars{
+    display: flex;
+    font-size: 25px;
+    margin-left: 450px;
+}
+.menu-bars{
+    margin-left: 50px;
+}
+.menu-bars2{
+    margin-left: 0;
+}
+.section-display{
+    display: block;
+}
+.section-display2{
+    display: none;
+}
+.link{
+    display: flex;
+    color: #fff;
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+}
+.link:hover{
+    background:white;
+    color: #000;
+    transition: all 0.5s;
+}
+.active{
+    background: white;
+    color: #000;
+}
+.icon, .link_text{
+    font-size: 20px;
+}
+
+
+.main_container{
+   overflow-x: hidden;
+}
+.leftSide {
+    position: fixed;
+    
+}
+.rightSide{
+    width: 100%;
+    margin-left: 200px;
+}
+/* ------------- by Sajid khan */
+.align{
+    display: flex;
+    /* flex-direction: row-reverse; */
+    /* justify-content: space-around; */
+}
+
+.main_header{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    /* position: fixed;
+    width: 100%;
+    z-index: 999; */
+}
+.link_text{
+    display: block;
+}
+.link_text2{
+    display: none;
+}
+@media screen and (max-width:1000px) {
+    .menu-bars{
+        margin-left: 0;
+    }
+    .section-display{
+        display: none;
+    }
+    .link_text{
+        display: none;
+      
+    }
+    .sidebar{
+        width: 50px;
+    }
+    .menubar-icon{
+        display: none;
+    }
+}
+
+ @media  screen and (max-width:1000px) {
+    .rightSide{
+        width: 100%;
+        margin-left: 50px;
+    
+    }
+} 
+@media  screen and (max-width:888px) {
+    .rightSide{
+        width: 100%;
+        margin-left: 30px;
+        /* background-color: red; */
+    }
+}
